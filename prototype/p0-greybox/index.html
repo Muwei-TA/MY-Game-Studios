@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>血管巡逻队 · P0 灰盒</title>
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap { text-align: center; }
+  canvas { display: block; border-radius: 6px; box-shadow: 0 10px 40px rgba(0,0,0,.6); }
+  .hint { margin-top: 10px; font-size: 12px; color: #6e7681; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <canvas id="game" width="1200" height="810"></canvas>
+  <div class="hint">1P:WASD + J   2P:方向键 + K   维修段:站进炎症区自动净化,Space 提前跳波   R 重开</div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
